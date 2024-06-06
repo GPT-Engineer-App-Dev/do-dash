@@ -48,7 +48,7 @@ const Index = () => {
             onChange={(e) => setInputValue(e.target.value)} 
             mr={2}
           />
-          <Button onClick={addTodo} colorScheme="teal">Add</Button>
+          <Button onClick={addTodo} colorScheme="green">Add</Button>
         </Flex>
         <List spacing={3} w="100%" maxW="md">
           {todos.map((todo, index) => (
